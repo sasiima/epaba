@@ -1,0 +1,21 @@
+
+1.       Need to figure out the linear expression. In this case, it is going to be:
+1.1.    Insurance Coverage(Y) = B0+B1Age+B2Time+B3Insured+B4Insurance Type+B5Race+B6State
+2.       There are going to be number of observations:
+2.1.    Age : Under 18, 18 to 40, 40 to 50, 50 to 65
+2.2.    Time span : 2006 to 2018
+2.3.    Insured: Insured / Uninsured
+2.4.    Insurance Type*
+2.5.    State: Number of states present
+2.6.    Race: Different Types of Race*
+3.       Need to keep the parameter Age and time and plot the insurance coverage against other remaining parameters
+4.       Need to check the outliers in Response as well as Predictor variables
+5.       Use of Hadi’s Influence Measure, to check the outliers
+6.       If the outliers are present, need to check whether we can leave it out or have to include them
+7.       Need to check the heteroscadasticity, by check the least square method
+8.       Need to transform the equation and check it again
+9.       Check the collinearity 
+10.   Check seasonality
+11.   Use Arima and find the best fitted model with small AIC
+
+
